@@ -1,0 +1,200 @@
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+header {
+    background-color: #ffffff;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    height: 110px;
+}
+
+
+h1 {
+    padding: 10px;
+    font-family: Georgia;
+    background-color: #4aaaa5;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.container {
+    float: left;
+}
+
+.nav {
+    padding: 10px;
+    background-color: white;
+    font-size: 20px;
+    margin-right: 120px;
+    margin-top: 17px;
+    margin-left: 17px;
+    float: right;
+    width: 30%;
+
+}
+
+#portfolio {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#mimipic {
+    float: left;
+}
+
+#aboutme {
+    float: right;
+}
+
+.About {
+    float: left;
+    padding: 20px;
+    width: 50%;
+    border: 0px solid black;
+    margin-bottom: 20px;
+    color: #333;
+    background: #E5E7E9;
+
+}
+
+.connect {
+    border: 2px solid black;
+    float: left;
+    width: 20%;
+    color: #4aaaa5;
+    font-size: 30px;
+    font-family: Georgia;
+    background: #D0D3D4;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.contact {
+    float: left;
+    width: 50%;
+    font-family: Arial;
+    font-size: 16px;
+    line-height: 30px;
+    background: #E5E7E9;
+    padding: 20px;
+}
+
+#portfolio {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+h4 {
+    font-family: Georgia;
+    background-color: white;
+    color: #4aaaa5;
+}
+
+h2 {
+    font-family: Georgia;
+    background-color: white;
+    color: #4aaaa5;
+
+}
+
+a {
+    float: right;
+}
+
+p {
+    font-size: 18px;
+    font-family: Arial;
+    color: #6a5acd;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #333;
+    background: #ccc;
+}
+
+h3 {
+    font-family: Georgia;
+    color: #4aaaa5;
+}
+
+#portbox1 {
+    float: left;
+    background: grey;
+    width: 20%;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+
+#portbox2 {
+    float: left;
+    background: white;
+    width: 20%;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+
+#portbox3 {
+    float: left;
+    background: grey;
+    width: 20%;
+    margin-right: 150px;
+    margin-left: 50px;
+
+}
+
+#portbox4 {
+    float: left;
+    background: white;
+    width: 20%;
+    margin-right: 150px;
+    margin-left: 50px;
+}
+
+body {
+    background-color: #D0D3D4;
+}
+
+footer {
+    padding: 20px;
+
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+
+/* Width at 768px and below */
+
+@media screen and (max-width: 768px) {
+    body {
+        background-color: #333;
+    }
+
+    .wrapper {
+        /* Box-model */
+        width: 100%;
+        padding: 60px;
+    }
+
+    #About {
+        width: 100%;
+    }
+
+    #connect {
+        width: 100%;
+        margin-top: 40px;
+        padding: 60px;
+
+    }
+}
