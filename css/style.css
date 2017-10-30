@@ -216,6 +216,11 @@ footer {
         width: 95%;
     }
 
+    .nav {
+        float: left;
+        width: 50%;
+    }
+
     .contact {
         width: 88%;
     }
@@ -249,6 +254,11 @@ footer {
 
     .connect {
         clear: both;
+        float: left;
+        width: 50%;
+    }
+
+    .nav {
         float: left;
         width: 50%;
     }
