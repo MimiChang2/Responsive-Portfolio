@@ -125,9 +125,8 @@ h3 {
 
 #portbox1 {
     float: left;
-    background: grey;
+    background: white;
     width: 20%;
-    margin-right: 150px;
     margin-left: 50px;
 
 }
@@ -136,16 +135,14 @@ h3 {
     float: left;
     background: white;
     width: 20%;
-    margin-right: 150px;
     margin-left: 50px;
 
 }
 
 #portbox3 {
     float: left;
-    background: grey;
+    background: white;
     width: 20%;
-    margin-right: 150px;
     margin-left: 50px;
 
 }
@@ -154,7 +151,6 @@ h3 {
     float: left;
     background: white;
     width: 20%;
-    margin-right: 150px;
     margin-left: 50px;
 }
 
@@ -229,8 +225,11 @@ footer {
         clear: both;
         float: left;
         min-width: 95%;
+    }
 
-
+    .portfolio {
+        width: 70%;
+        float: left;
     }
 }
 
@@ -249,7 +248,7 @@ footer {
     }
 
     .About {
-        width: 40%;
+        width: 80%;
     }
 
     .connect {
@@ -263,9 +262,10 @@ footer {
         width: 50%;
     }
 
-    a {
-        width: 100%;
-        height: 100%;
-
+    .portfolio {
+        width: 70%;
+        float: left;
     }
+}
+
 }
